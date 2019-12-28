@@ -7,6 +7,7 @@ public abstract class AbstractCalculator {
         return calculate(array[0],array[1]);
     }
     public  abstract  int calculate(int num1,int mum2);
+
     public int[] split(String exp,String regex){
         String arr[] = exp.split(regex);
         int intArr[] = new int[arr.length];
