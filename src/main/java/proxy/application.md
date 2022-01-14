@@ -7,4 +7,4 @@
 
 像本包下Proxy为静态代理，还有动态代理，动态代理分为jdk动态代理和cglib的动态代理，
 jdk动态代理是面向接口的，
-cglib的动态代理是面试类的。
+cglib的动态代理是面向类的。参考连接： https://blog.csdn.net/qq_41854763/article/details/111058947

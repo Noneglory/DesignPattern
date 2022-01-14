@@ -1,3 +1,3 @@
-MySubject类就是我们的著对象，observer1，observer2是观察者，当MySubject进行操作时，observer1和observer2
+MySubject类就是我们的主对象，observer1，observer2是观察者，当MySubject进行操作时，observer1和observer2
 会得到通知，Watcher是我们的注册器，可以对其进行注册修改，增加或删除被监控对象，当MySubject变化时，负责通知
 再列表内存在的对象

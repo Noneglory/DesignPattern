@@ -1,9 +1,5 @@
-package proxy.dynamicproxy;
+package proxy.dynamicproxy.jdk;
 
-
-import proto.ProtoType;
-import proxy.Source;
-import proxy.SourceAble;
 
 import java.lang.reflect.Proxy;
 
