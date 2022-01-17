@@ -11,6 +11,6 @@ public class AbstractHandlerTest {
         Handler handler2 = new MyHandler("h3");
         ((MyHandler) handler).setHandler(handler1);
         ((MyHandler) handler1).setHandler(handler2);
-        handler.handle();
+        handler.handle("h3");
     }
 }

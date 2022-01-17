@@ -34,4 +34,13 @@ public class TreeNode {
     public void setChildren(Vector<TreeNode> children) {
         this.children = children;
     }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "name='" + name + '\'' +
+                ", parent=" + parent +
+                ", children=" + children +
+                '}';
+    }
 }

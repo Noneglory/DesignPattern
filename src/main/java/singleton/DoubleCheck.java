@@ -1,7 +1,7 @@
 package singleton;
 
 public class DoubleCheck {
-    private static DoubleCheck doubleCheck;
+    private static DoubleCheck doubleCheck=null;
     private  DoubleCheck(){}
 
     public static DoubleCheck getInstance(){

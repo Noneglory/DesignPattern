@@ -11,7 +11,7 @@ public abstract class AbstractHandler implements  Handler {
         this.handler = handler;
     }
 
-    public void handle(){
-        this.handler.handle();
+    public void handle(String name){
+        this.handler.handle(name);
     }
 }

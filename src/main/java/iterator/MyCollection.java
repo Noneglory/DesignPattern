@@ -1,7 +1,5 @@
 package iterator;
 
-import java.util.ArrayList;
-
 public class MyCollection {
     String strArr[] = {"ads","qqq","www","eee","rrr"};
     public String get(int i){
@@ -22,7 +20,7 @@ public class MyCollection {
             this.collection=collection;
         }
         public boolean hasNext(){
-            if(position<MyCollection.this.strArr.length-1&&position>=0){
+            if(position< MyCollection.this.strArr.length-1&&position >=0){
                 return  true;
             }
             return  false;

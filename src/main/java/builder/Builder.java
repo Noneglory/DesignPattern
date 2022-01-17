@@ -1,8 +1,9 @@
 package builder;
 
-import abstractfactory.MailSender;
-import abstractfactory.Sender;
-import abstractfactory.SmsSender;
+
+import factory.simplefactory.MailSender;
+import factory.simplefactory.Sender;
+import factory.simplefactory.SmsSender;
 
 import java.util.ArrayList;
 import java.util.List;
